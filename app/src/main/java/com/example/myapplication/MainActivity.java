@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         // Se declaran los botones
         Button crein = findViewById(R.id.crein);
         Button creru = findViewById(R.id.creru);
-        Button usarru = findViewById(R.id.usarru);
+        Button usarru = findViewById(R.id.usaru);
 
         // Se asignan funciones a botones
         crein.setOnClickListener(new View.OnClickListener() {
