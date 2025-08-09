@@ -1,6 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <!-- Nombre indicador -->
+    <TextView android:id="@+id/Textonombreindicador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto inicial" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText android:id="@+id/campoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el nombre del indicador aquí" />
+
+    <!-- logrado -->
+    <TextView android:id="@+id/Textologrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicador logrado" />
+
+    <EditText android:id="@+id/campologrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe las características del indicador Logrado" />
+
+    <!-- Medianamente logrado -->
+    <TextView android:id="@+id/Textomedianamente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicador Medianamente Logrado" />
+
+    <EditText android:id="@+id/compomedianamente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe las características del indicador Medianamente logrado" />
+
+    <!-- No logrado -->
+    <TextView android:id="@+id/Textonologrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicador Medianamente Logrado" />
+
+    <EditText android:id="@+id/camponologrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe las características del indicador No logrado" />
+
+    <Button android:id="@+id/miBoton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Indicador" />
+</LinearLayout>
