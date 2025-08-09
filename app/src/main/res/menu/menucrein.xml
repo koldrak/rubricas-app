@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_crearindicador"
+        android:title="Guardar"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_eliminarindicador"
+        android:title="Eliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom" />
+</menu>
