@@ -14,4 +14,9 @@
         app:titleTextColor="@android:color/white" />
     <!-- Aquí van los componentes -->
 
+    <ListView
+        android:id="@+id/listviewindicadores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
